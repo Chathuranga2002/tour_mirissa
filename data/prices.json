@@ -1,0 +1,31 @@
+{
+    "whaleWatching": {
+        "adult": 16500,
+        "child": 8000,
+        "childAge": "6-10",
+        "infant": "Free",
+        "duration": "3-5 Hours",
+        "departure": "6:30 AM",
+        "pickup": "Free (Mirissa Area)"
+    },
+
+    "yalaSafari": {
+        "price": 120
+    },
+
+    "udawalaweSafari": {
+        "price": 95
+    },
+
+    "diving": {
+        "price": 80
+    },
+
+    "surfing": {
+        "price": 45
+    },
+
+    "airportTransfer": {
+        "price": 75
+    }
+}

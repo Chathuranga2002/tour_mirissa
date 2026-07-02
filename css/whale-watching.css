@@ -1,0 +1,21 @@
+.hero-zoom{
+
+    animation: heroZoom 18s ease-in-out infinite;
+
+}
+
+@keyframes heroZoom{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.08);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+
+}

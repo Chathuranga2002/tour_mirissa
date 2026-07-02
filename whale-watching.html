@@ -17,143 +17,856 @@ html{
     scroll-behavior:smooth;
 }
 </style>
-
+<link rel="stylesheet" href="css/whale-watching.css">
 </head>
 
 <body class="bg-[#f8f5f4]">
 
+
+
+<!-- ================= WHALE HERO ================= -->
+<section class="relative h-[70vh] min-h-[650px] overflow-hidden">
+
+    <!-- Background Image -->
+    <img
+        src="images/hiro/h1.png"
+        alt="Whale Watching Mirissa"
+        class="absolute inset-0 w-full h-full object-cover hero-zoom">
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/55"></div>
+
+    <!-- Gradient Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-r
+                from-black/80
+                via-black/45
+                to-transparent">
+    </div>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 h-full max-w-7xl mx-auto
+                px-6 lg:px-8
+                flex items-center
+                pt-36">
+
+        <div class="max-w-3xl text-white">
+
+            <span class="inline-block
+                         px-5 py-2
+                         rounded-full
+                         bg-cyan-500/20
+                         border border-cyan-300/30
+                         backdrop-blur-md
+                         uppercase
+                         tracking-[4px]
+                         text-sm
+                         text-cyan-200">
+
+                Tours Mirissa
+
+            </span>
+
+            <h1 class="mt-6
+                       text-5xl
+                       md:text-6xl
+                       lg:text-7xl
+                       font-bold
+                       leading-tight">
+
+                Whale Watching
+                <br>
+                Mirissa
+
+            </h1>
+
+            <p class="mt-6
+                      text-lg
+                      text-gray-200
+                      leading-8">
+
+                The Best Whale Watching Experience in Sri Lanka.
+                Join <strong>Tours Mirissa</strong> to discover
+                Blue Whales, Sperm Whales, Spinner Dolphins,
+                and unforgettable ocean adventures with our
+                experienced local crew.
+
+            </p>
+
+            <div class="flex flex-wrap gap-4 mt-10">
+
+                <a href="#packages"
+                   class="bg-yellow-400
+                          hover:bg-yellow-300
+                          text-black
+                          font-semibold
+                          px-8 py-4
+                          rounded-full">
+
+                    Book Now
+
+                </a>
+
+                <a href="#gallery"
+                   class="border
+                          border-white/40
+                          px-8
+                          py-4
+                          rounded-full
+                          hover:bg-white
+                          hover:text-black">
+
+                    View Gallery
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 <!-- NAVBAR -->
-<nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
 
-<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<nav id="navbar"
+class="fixed top-0 left-0 w-full z-50
+bg-transparent
+transition-all duration-500">
 
-<h1 class="text-2xl font-bold text-blue-700">
+
+<div class="max-w-7xl mx-auto px-6 py-5 
+flex justify-between items-center">
+
+
+<!-- LOGO -->
+
+<a href="index.html"
+class="text-2xl font-bold text-white">
+
 Tours Mirissa
-</h1>
 
-<div class="hidden md:flex gap-8">
+</a>
 
-<a href="index.html">Home</a>
+
+
+
+<!-- DESKTOP MENU -->
+
+<div class="hidden lg:flex items-center gap-8 text-white">
+
+
+<a href="index.html"
+class="hover:text-yellow-400">
+Home
+</a>
+
 
 <a href="whale-watching.html"
-class="text-blue-600 border-b-2 border-blue-600">
+class="hover:text-yellow-400">
 Whale Watching
 </a>
 
-<a href="safari-tours.html">
+
+
+
+
+<!-- SAFARI -->
+
+<div class="relative group">
+
+
+<button class="flex gap-2 hover:text-yellow-400">
+
 Safari Tours
-</a>
+⌄
 
-<a href="contact.html">
-Contact
-</a>
-
-</div>
-
-<button class="bg-yellow-400 px-5 py-2 rounded-full">
-Book Now
 </button>
 
+
+
+<div class="absolute top-full pt-3 hidden group-hover:block">
+
+
+<div class="bg-white text-gray-800 rounded-xl shadow-xl w-52">
+
+
+<a href="yala-safari.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Yala Safari
+
+</a>
+
+
+<a href="udawalawe-safari.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Udawalawe Safari
+
+</a>
+
+
 </div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- SERVICE -->
+
+
+<div class="relative group">
+
+
+<button class="flex gap-2 hover:text-yellow-400">
+
+Service & Activities
+⌄
+
+</button>
+
+
+
+<div class="absolute top-full pt-3 hidden group-hover:block">
+
+
+<div class="bg-white text-gray-800 rounded-xl shadow-xl w-60">
+
+
+<a href="surf-lessons.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Surf Lessons
+
+</a>
+
+
+<a href="hotel-booking.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Hotel Booking
+
+</a>
+
+
+<a href="airport-transfer.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Airport Transfer
+
+</a>
+
+
+<a href="diving.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Diving
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<a href="sri-lanka.html"
+class="hover:text-yellow-400">
+
+Sri Lanka
+
+</a>
+
+
+<a href="contact.html"
+class="hover:text-yellow-400">
+
+Contact
+
+</a>
+
+
+
+</div>
+
+
+
+
+
+
+<!-- BOOK BUTTON -->
+
+<a href="contact.html"
+
+class="
+hidden lg:block
+bg-yellow-400
+text-black
+px-6 py-2
+rounded-full">
+
+Book Now
+
+</a>
+
+
+
+
+
+
+<!-- MOBILE BUTTON -->
+
+
+<button id="menuBtn"
+
+class="lg:hidden text-white text-3xl">
+
+
+☰
+
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+<!-- MOBILE MENU -->
+
+
+<div id="mobileMenu"
+
+class="
+hidden
+lg:hidden
+bg-black/90
+backdrop-blur-xl
+absolute
+top-full
+left-0
+w-full
+px-6
+py-6
+text-white">
+
+
+<a href="index.html"
+class="block py-3">
+
+Home
+
+</a>
+
+
+
+<a href="whale-watching.html"
+class="block py-3">
+
+Whale Watching
+
+</a>
+
+
+
+
+
+<!-- MOBILE SAFARI -->
+
+<button
+onclick="toggleSafari()"
+
+class="w-full flex justify-between py-3">
+
+
+Safari Tours
+
+<span>
+⌄
+</span>
+
+
+</button>
+
+
+
+<div id="safariDrop"
+class="hidden pl-5">
+
+
+<a href="yala-safari.html"
+class="block py-2 text-gray-300">
+
+Yala Safari
+
+</a>
+
+
+<a href="udawalawe-safari.html"
+class="block py-2 text-gray-300">
+
+Udawalawe Safari
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+<!-- MOBILE SERVICE -->
+
+
+<button
+onclick="toggleService()"
+
+class="w-full flex justify-between py-3">
+
+
+Service & Activities
+
+<span>
+⌄
+</span>
+
+
+</button>
+
+
+
+<div id="serviceDrop"
+class="hidden pl-5">
+
+
+<a href="surf-lessons.html"
+class="block py-2 text-gray-300">
+
+Surf Lessons
+
+</a>
+
+
+<a href="hotel-booking.html"
+class="block py-2 text-gray-300">
+
+Hotel Booking
+
+</a>
+
+
+<a href="airport-transfer.html"
+class="block py-2 text-gray-300">
+
+Airport Transfer
+
+</a>
+
+
+<a href="diving.html"
+class="block py-2 text-gray-300">
+
+Diving
+
+</a>
+
+
+</div>
+
+
+
+
+<a href="contact.html"
+
+class="
+block
+mt-5
+bg-yellow-400
+text-black
+text-center
+py-3
+rounded-full">
+
+Book Now
+
+</a>
+
+
+
+</div>
+
 
 </nav>
 
-<!-- HERO -->
-<section class="relative h-screen">
 
-<img src="images/whale-hero.jpg"
-class="absolute inset-0 w-full h-full object-cover">
+<!-- WHY MIRISSA -->
+<section class="py-24 bg-white">
 
-<div class="absolute inset-0 bg-black/50"></div>
+    <div class="max-w-7xl mx-auto px-6">
 
-<div class="relative h-full flex flex-col justify-center items-center text-center text-white px-6">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
 
-<p class="tracking-[6px] uppercase">
-Indian Ocean Expedition
-</p>
+            <!-- LEFT CONTENT -->
+            <div>
 
-<h1 class="text-6xl md:text-7xl font-bold mt-4">
-Giants Of The Deep
-</h1>
+                <span class="inline-block
+                             bg-cyan-100
+                             text-cyan-700
+                             px-5 py-2
+                             rounded-full
+                             text-sm
+                             font-medium
+                             tracking-wide">
 
-<p class="max-w-3xl mt-6 text-lg">
-Encounter Blue Whales, Dolphins and marine wildlife
-in one of the world's premier whale watching destinations.
-</p>
+                    One of the World's Best Whale Watching Destinations
 
-<div class="bg-white/15 backdrop-blur-lg rounded-3xl mt-12 p-5 w-full max-w-4xl">
+                </span>
 
-<div class="grid md:grid-cols-3 gap-4">
+                <h2 class="text-5xl font-bold mt-6 leading-tight">
 
-<input type="date"
-class="bg-white rounded-xl p-4 text-black">
+                    Why Choose
+                    <span class="text-blue-600">
+                        Mirissa
+                    </span>
+                    for Whale Watching?
 
-<select class="bg-white rounded-xl p-4 text-black">
+                </h2>
 
-<option>Morning Tour</option>
-<option>Private Tour</option>
+                <p class="mt-8 text-lg text-gray-600 leading-8">
 
-</select>
+                    Located along the beautiful southern coast of Sri Lanka,
+                    <strong>Mirissa</strong> is internationally recognized as one of
+                    the best places in the world to witness the magnificent
+                    <strong>Blue Whale</strong> in its natural habitat.
 
-<button class="bg-blue-600 rounded-xl text-white">
-Check Availability
-</button>
+                    Every season, these gentle giants migrate through the warm
+                    waters of the Indian Ocean, creating unforgettable wildlife
+                    encounters just a short boat ride from shore.
 
-</div>
+                </p>
 
-</div>
+                <p class="mt-6 text-lg text-gray-600 leading-8">
 
-</div>
+                    Besides the world's largest mammal, visitors frequently
+                    encounter <strong>Sperm Whales</strong>,
+                    <strong>Bryde's Whales</strong>,
+                    <strong>Spinner Dolphins</strong>,
+                    <strong>Fin Whales</strong>,
+                    and many other fascinating marine species.
+
+                    With plenty of time for photography and wildlife observation,
+                    <strong>Tours Mirissa</strong> delivers a safe, comfortable,
+                    and unforgettable ocean adventure led by experienced local experts.
+
+                </p>
+
+                <!-- Statistics -->
+
+                <div class="grid grid-cols-2 gap-5 mt-10">
+
+                    <div class="bg-blue-50 rounded-2xl p-5">
+
+                        <h3 class="text-3xl font-bold text-blue-700">
+
+                            95%
+
+                        </h3>
+
+                        <p class="text-gray-600 mt-2">
+
+                            Dolphin Sighting Success
+
+                        </p>
+
+                    </div>
+
+                    <div class="bg-blue-50 rounded-2xl p-5">
+
+                        <h3 class="text-3xl font-bold text-blue-700">
+
+                            Nov – Apr
+
+                        </h3>
+
+                        <p class="text-gray-600 mt-2">
+
+                            Best Whale Watching Season
+
+                        </p>
+
+                    </div>
+
+                    <div class="bg-blue-50 rounded-2xl p-5">
+
+                        <h3 class="text-3xl font-bold text-blue-700">
+
+                            6+
+
+                        </h3>
+
+                        <p class="text-gray-600 mt-2">
+
+                            Marine Species Regularly Spotted
+
+                        </p>
+
+                    </div>
+
+                    <div class="bg-blue-50 rounded-2xl p-5">
+
+                        <h3 class="text-3xl font-bold text-blue-700">
+
+                            2017
+
+                        </h3>
+
+                        <p class="text-gray-600 mt-2">
+
+                            Trusted Tours Mirissa Experience
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT IMAGE -->
+
+            <div class="relative">
+
+                <img
+                    src="images/whale/blue-whale.jpg"
+                    alt="Blue Whale Mirissa"
+                    class="rounded-3xl shadow-2xl w-full h-[650px] object-cover">
+
+                <!-- Floating Card -->
+
+                <div class="absolute bottom-8 left-8
+                            bg-white/90 backdrop-blur-xl
+                            rounded-2xl shadow-xl
+                            p-6 max-w-sm">
+
+                    <h3 class="text-xl font-bold">
+
+                        Home of the Blue Whale
+
+                    </h3>
+
+                    <p class="text-gray-600 mt-3 leading-7">
+
+                        Mirissa is one of the few places in the world where
+                        visitors can observe the majestic Blue Whale close
+                        to shore during its seasonal migration.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<!-- WHY MIRISSA -->
-<section class="py-24">
+<!-- ================= TOUR FACILITIES ================= -->
+<section class="py-24 bg-[#f8f8f8]">
 
-<div class="max-w-7xl mx-auto px-6">
+    <div class="max-w-7xl mx-auto px-6">
 
-<div class="grid md:grid-cols-2 gap-20 items-center">
+        <!-- Heading -->
 
-<div>
+        <div class="text-center mb-16">
 
-<p class="text-blue-600">
-The Kingdom of Blue Whales
-</p>
+            <span class="inline-block
+                         bg-blue-100
+                         text-blue-700
+                         px-5 py-2
+                         rounded-full
+                         text-sm
+                         font-medium">
 
-<h2 class="text-5xl font-bold mt-3">
-Why Mirissa?
-</h2>
+                Tours Mirissa Facilities
 
-<p class="mt-8 text-gray-600 leading-8">
-Mirissa is one of the few places on Earth where Blue Whales
-can be seen close to shore. The unique continental shelf
-creates ideal feeding conditions for whales and dolphins.
-</p>
+            </span>
 
-<div class="mt-8 flex gap-4">
+            <h2 class="text-5xl font-bold mt-6">
 
-<div class="bg-blue-100 px-5 py-4 rounded-xl">
-95% Dolphin Sightings
-</div>
+                Everything Included
+                <span class="text-blue-600">
 
-<div class="bg-blue-100 px-5 py-4 rounded-xl">
-Peak Season Nov-Apr
-</div>
+                    In Your Tour
 
-</div>
+                </span>
 
-</div>
+            </h2>
 
-<div>
+            <p class="max-w-3xl mx-auto mt-6 text-gray-600 leading-8">
 
-<img src="images/blue-whale.jpg"
-class="rounded-3xl shadow-xl">
+                At Tours Mirissa, we take care of every detail to ensure your
+                whale watching adventure is safe, comfortable, and unforgettable.
+                From complimentary hotel pickup to onboard refreshments and
+                professional safety equipment, everything is prepared for you.
 
-</div>
+            </p>
 
-</div>
+        </div>
 
-</div>
+        <!-- Cards -->
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-7">
+
+            <div class="bg-white rounded-3xl p-8 shadow hover:-translate-y-2 transition">
+                <div class="text-5xl">🚐</div>
+                <h3 class="mt-5 font-bold text-xl">Free Hotel Pickup</h3>
+                <p class="mt-3 text-gray-600">Complimentary pickup and drop-off within the Mirissa area.</p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow hover:-translate-y-2 transition">
+                <div class="text-5xl">🍳</div>
+                <h3 class="mt-5 font-bold text-xl">Free Breakfast</h3>
+                <p class="mt-3 text-gray-600">Enjoy a light breakfast before your whale watching adventure.</p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow hover:-translate-y-2 transition">
+                <div class="text-5xl">💧</div>
+                <h3 class="mt-5 font-bold text-xl">Water Bottle</h3>
+                <p class="mt-3 text-gray-600">Stay refreshed throughout the journey with complimentary water.</p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow hover:-translate-y-2 transition">
+                <div class="text-5xl">🦺</div>
+                <h3 class="mt-5 font-bold text-xl">Life Jackets</h3>
+                <p class="mt-3 text-gray-600">Quality life jackets are provided for every passenger.</p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow hover:-translate-y-2 transition">
+                <div class="text-5xl">🛟</div>
+                <h3 class="mt-5 font-bold text-xl">Professional Lifeguard</h3>
+                <p class="mt-3 text-gray-600">Experienced safety personnel accompany every tour.</p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow hover:-translate-y-2 transition">
+                <div class="text-5xl">🩹</div>
+                <h3 class="mt-5 font-bold text-xl">First Aid</h3>
+                <p class="mt-3 text-gray-600">Complete first aid equipment is available onboard.</p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow hover:-translate-y-2 transition">
+                <div class="text-5xl">🚿</div>
+                <h3 class="mt-5 font-bold text-xl">Boat Facilities</h3>
+                <p class="mt-3 text-gray-600">Comfortable seating, onboard toilet, and shower facilities.</p>
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow hover:-translate-y-2 transition">
+                <div class="text-5xl">📋</div>
+                <h3 class="mt-5 font-bold text-xl">Tour Briefing</h3>
+                <p class="mt-3 text-gray-600">Our crew explains the complete tour and safety procedures before departure.</p>
+            </div>
+
+        </div>
+
+        <!-- Bottom Info -->
+
+        <div class="mt-16 bg-blue-600 rounded-3xl p-10 text-white">
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="flex items-start gap-4">
+
+                    <div class="text-4xl">🚗</div>
+
+                    <div>
+
+                        <h3 class="font-bold text-xl">
+
+                            Free Parking
+
+                        </h3>
+
+                        <p class="mt-2 text-blue-100">
+
+                            Secure parking is available for guests arriving in their own vehicles.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="flex items-start gap-4">
+
+                    <div class="text-4xl">🛡️</div>
+
+                    <div>
+
+                        <h3 class="font-bold text-xl">
+
+                            Fully Insured
+
+                        </h3>
+
+                        <p class="mt-2 text-blue-100">
+
+                            Every passenger is covered by insurance for peace of mind.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="flex items-start gap-4">
+
+                    <div class="text-4xl">⭐</div>
+
+                    <div>
+
+                        <h3 class="font-bold text-xl">
+
+                            Professional Service
+
+                        </h3>
+
+                        <p class="mt-2 text-blue-100">
+
+                            Friendly local experts committed to delivering an unforgettable experience.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
@@ -173,28 +886,28 @@ Meet The Ocean Giants
 <div class="grid md:grid-cols-4 gap-6">
 
 <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
-<img src="images/species-blue-whale.jpg">
+<img src="images/hiro/h1.png">
 <div class="p-5">
 <h3 class="font-bold text-xl">Blue Whale</h3>
 </div>
 </div>
 
 <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
-<img src="images/species-sperm.jpg">
+<img src="images/hiro/h1.png">
 <div class="p-5">
 <h3 class="font-bold text-xl">Sperm Whale</h3>
 </div>
 </div>
 
 <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
-<img src="images/species-bryde.jpg">
+<img src="images/hiro/h1.png">
 <div class="p-5">
 <h3 class="font-bold text-xl">Bryde's Whale</h3>
 </div>
 </div>
 
 <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
-<img src="images/species-dolphin.jpg">
+<img src="images/hiro/h1.png">
 <div class="p-5">
 <h3 class="font-bold text-xl">Spinner Dolphins</h3>
 </div>
@@ -206,200 +919,333 @@ Meet The Ocean Giants
 
 </section>
 
-<!-- INCLUDED -->
-<section class="py-24">
-
-<div class="max-w-7xl mx-auto px-6">
-
-<h2 class="text-center text-5xl font-bold mb-16">
-What's Included
-</h2>
-
-<div class="grid md:grid-cols-3 gap-8">
-
-<div class="bg-white p-8 rounded-3xl shadow">
-🍳 Breakfast Included
-</div>
-
-<div class="bg-white p-8 rounded-3xl shadow">
-🚐 Hotel Pickup
-</div>
-
-<div class="bg-white p-8 rounded-3xl shadow">
-🦺 Life Jackets
-</div>
-
-<div class="bg-white p-8 rounded-3xl shadow">
-💧 Water Bottles
-</div>
-
-<div class="bg-white p-8 rounded-3xl shadow">
-🏥 First Aid
-</div>
-
-<div class="bg-white p-8 rounded-3xl shadow">
-🛡 Insurance Cover
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- TIMELINE -->
-<section class="py-24 bg-white">
-
-<div class="max-w-5xl mx-auto px-6">
-
-<div class="text-center mb-16">
-
-<h2 class="text-5xl font-bold">
-Your Ocean Journey
-</h2>
-
-</div>
-
-<div class="space-y-8">
-
-<div class="bg-blue-50 p-6 rounded-2xl">
-05:45 AM — Check In
-</div>
-
-<div class="bg-blue-50 p-6 rounded-2xl">
-06:30 AM — Departure
-</div>
-
-<div class="bg-blue-50 p-6 rounded-2xl">
-08:00 AM — Whale Search Area
-</div>
-
-<div class="bg-blue-50 p-6 rounded-2xl">
-09:30 AM — Breakfast At Sea
-</div>
-
-<div class="bg-blue-50 p-6 rounded-2xl">
-11:30 AM — Return To Harbor
-</div>
-
-</div>
-
-</div>
-
-</section>
-
 <!-- PRICING -->
-<section class="py-24">
-
-<div class="max-w-6xl mx-auto px-6">
-
-<h2 class="text-center text-5xl font-bold mb-16">
-Tour Rates
-</h2>
-
-<div class="grid md:grid-cols-3 gap-8">
-
-<div class="bg-white p-10 rounded-3xl shadow-lg text-center">
-
-<h3 class="font-bold text-2xl">
-Adult
-</h3>
-
-<p class="text-5xl font-bold mt-5">
-$55
-</p>
-
-</div>
-
-<div class="bg-blue-600 text-white p-10 rounded-3xl shadow-lg text-center">
-
-<h3 class="font-bold text-2xl">
-Child
-</h3>
-
-<p class="text-5xl font-bold mt-5">
-$25
-</p>
-
-</div>
-
-<div class="bg-white p-10 rounded-3xl shadow-lg text-center">
-
-<h3 class="font-bold text-2xl">
-Under 5
-</h3>
-
-<p class="text-5xl font-bold mt-5">
-FREE
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- OCEAN GALLERY -->
-<section class="py-24 bg-white">
+<section class="py-24 bg-[#f7f8fa]">
 
 <div class="max-w-7xl mx-auto px-6">
 
-<div class="text-center mb-16">
+<div class="grid lg:grid-cols-2 gap-12">
 
-<h2 class="text-5xl font-bold">
-Ocean Encounters
+<!-- PRICE CARD -->
+
+<div class="bg-white rounded-3xl shadow-xl overflow-hidden">
+
+<div class="bg-blue-600 text-white p-8">
+
+<h2 class="text-4xl font-bold">
+
+Whale Watching Rates
+
 </h2>
+
+<p class="mt-2 text-blue-100">
+
+Updated automatically
+
+</p>
 
 </div>
 
-<div class="grid md:grid-cols-3 gap-6">
+<div class="divide-y">
 
-<img src="images/gallery1.jpg"
-class="rounded-3xl h-80 object-cover w-full">
+<div class="flex justify-between p-6">
 
-<img src="images/gallery2.jpg"
-class="rounded-3xl h-80 object-cover w-full">
+<span>Adult</span>
 
-<img src="images/gallery3.jpg"
-class="rounded-3xl h-80 object-cover w-full">
+<span id="adultPrice"></span>
 
-<img src="images/gallery4.jpg"
-class="rounded-3xl h-80 object-cover w-full">
+</div>
 
-<img src="images/gallery5.jpg"
-class="rounded-3xl h-80 object-cover w-full">
+<div class="flex justify-between p-6">
 
-<img src="images/gallery6.jpg"
-class="rounded-3xl h-80 object-cover w-full">
+<span>Children (6-10 Years)</span>
+
+<span id="childPrice"></span>
+
+</div>
+
+<div class="flex justify-between p-6">
+
+<span>Children Under 5</span>
+
+<span id="infantPrice"></span>
+
+</div>
+
+</div>
+
+<a href="contact.html"
+class="block bg-yellow-400 hover:bg-yellow-300
+text-center font-semibold py-5">
+
+Book Your Tour
+
+</a>
+
+</div>
+
+<!-- INFORMATION -->
+
+<div>
+
+<h2 class="text-4xl font-bold">
+
+Booking Information
+
+</h2>
+
+<div class="mt-8 space-y-8">
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+How to Book
+
+</h3>
+
+<p class="mt-3 text-gray-600 leading-8">
+
+Reserve your tour online or contact
+Tours Mirissa by WhatsApp or phone
+1–2 days before your preferred travel date.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+Departure Time
+
+</h3>
+
+<p class="mt-3 text-gray-600">
+
+Every morning at
+
+<strong id="departureTime"></strong>
+
+from Mirissa Harbour.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+Tour Duration
+
+</h3>
+
+<p class="mt-3 text-gray-600">
+
+Approximately
+
+<strong id="tourDuration"></strong>
+
+depending on whale sightings.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+Hotel Pickup
+
+</h3>
+
+<p class="mt-3 text-gray-600">
+
+<span id="pickupInfo"></span>
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="mt-10
+bg-red-50
+border-l-4
+border-red-500
+rounded-xl
+p-6">
+
+<p class="text-red-700">
+
+<strong>Important:</strong>
+
+All payments should be completed
+before departure on the tour date.
+
+</p>
 
 </div>
 
 </div>
 
 </section>
+
+
+
+
 
 <!-- FOOTER -->
-<footer class="bg-white border-t py-16">
+<footer class="relative overflow-hidden">
 
-<div class="max-w-7xl mx-auto px-6 text-center">
+    <!-- Background Image -->
+    <img
+        src="images/footer/footer-bg.png"
+        alt=""
+        class="absolute inset-0 w-full h-full object-cover">
 
-<h2 class="text-2xl font-bold text-blue-700">
-Tours Mirissa
-</h2>
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/75 backdrop-blur-[2px]"></div>
 
-<p class="mt-4 text-gray-600">
-Premium whale watching experiences in Sri Lanka.
-</p>
+    <!-- Content -->
+    <div class="relative z-10 max-w-7xl mx-auto py-16 px-6 md:px-10 lg:px-16">
 
-<p class="mt-8 text-sm text-gray-500">
-© 2026 Tours Mirissa. All Rights Reserved.
-</p>
+        <div class="grid md:grid-cols-4 gap-10 text-white">
 
-</div>
+            <!-- LOGO -->
+            <div>
+
+                <h2 class="text-3xl font-bold text-cyan-300">
+                    Tours Mirissa
+                </h2>
+
+                <p class="mt-5 text-gray-300 leading-7">
+                    Trusted luxury whale watching, safari adventures,
+                    diving experiences and private tours across Sri Lanka.
+                </p>
+
+            </div>
+
+            <!-- LINKS -->
+            <div>
+
+                <h3 class="text-lg font-semibold mb-5">
+                    Quick Links
+                </h3>
+
+                <ul class="space-y-3">
+
+                    <li>
+                        <a href="index.html"
+                           class="text-gray-300 hover:text-yellow-400 transition">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="whale-watching.html"
+                           class="text-gray-300 hover:text-yellow-400 transition">
+                            Whale Watching
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="safari-tours.html"
+                           class="text-gray-300 hover:text-yellow-400 transition">
+                            Safari Tours
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html"
+                           class="text-gray-300 hover:text-yellow-400 transition">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- NEWSLETTER -->
+            <div>
+
+                <h3 class="text-lg font-semibold mb-5">
+                    Newsletter
+                </h3>
+
+                <p class="text-gray-300 mb-5">
+                    Subscribe for travel offers and updates.
+                </p>
+
+                <div class="flex">
+
+                    <input
+                        type="email"
+                        placeholder="Your email"
+                        class="w-full bg-white/10 border border-white/20
+                               rounded-l-xl px-4 py-3
+                               text-white placeholder-gray-300
+                               backdrop-blur-md outline-none">
+
+                    <button
+                        class="bg-yellow-400 hover:bg-yellow-300
+                               text-black px-5 rounded-r-xl transition">
+
+                        →
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CONTACT -->
+            <div>
+
+                <h3 class="text-lg font-semibold mb-5">
+                    Contact
+                </h3>
+
+                <div class="space-y-3 text-gray-300">
+
+                    <p>📍 Mirissa, Sri Lanka</p>
+
+                    <p>📞 +94 77 123 4567</p>
+
+                    <p>✉ info@toursmirissa.com</p>
+
+                    <p>🕘 Open Daily 6:00 AM – 9:00 PM</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+
+        <div class="border-t border-white/20 mt-14 pt-8">
+
+            <p class="text-center text-gray-400">
+
+                © 2026 Tours Mirissa. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
 
 </footer>
-
+<script src="js/nav-bar.js"></script>
+<script src="js/prices.js"></script>
 </body>
 </html>

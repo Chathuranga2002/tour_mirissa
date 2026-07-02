@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safari Tours | Tours Mirissa</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+.hero-overlay{
+    background:rgba(0,0,0,0.35);
+}
+
+.glass{
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.18);
+}
+</style>
+
+</head>
+<body class="bg-[#f8f5f4]">
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+        <h1 class="text-2xl font-bold text-blue-700">
+            Tours Mirissa
+        </h1>
+
+        <div class="hidden md:flex items-center gap-8">
+
+            <a href="index.html">Home</a>
+
+            <a href="#">Whale Watching</a>
+
+            <a href="safari-tours.html"
+               class="text-blue-600 border-b-2 border-blue-600">
+                Safari Tours
+            </a>
+
+            <a href="#">Service</a>
+            <a href="#">Sri Lanka</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+        <button class="bg-yellow-400 px-5 py-2 rounded-full font-medium">
+            Book Now
+        </button>
+
+    </div>
+
+</nav>
+
+<!-- HERO -->
+<section class="relative h-screen">
+
+    <img
+        src="images/safari-hero.jpg"
+        class="absolute inset-0 w-full h-full object-cover"
+        alt="Leopard Safari"
+    >
+
+    <div class="absolute inset-0 hero-overlay"></div>
+
+    <div class="relative h-full flex flex-col justify-center items-center text-center text-white px-6">
+
+        <p class="uppercase tracking-[6px] text-sm">
+            Premier Expedition
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-bold mt-4">
+            Yala Leopard Sovereignty
+        </h1>
+
+        <p class="max-w-2xl mt-6 text-lg">
+            Venture into the heart of the world's highest leopard density.
+            A curated luxury safari experience across the untouched
+            landscapes of Ruhuna.
+        </p>
+
+        <!-- BOOKING BAR -->
+        <div class="glass mt-12 rounded-3xl p-5 w-full max-w-4xl">
+
+            <div class="grid md:grid-cols-3 gap-4">
+
+                <div class="bg-white rounded-xl p-4 text-left">
+
+                    <p class="text-xs text-gray-500 uppercase">
+                        Tour Date
+                    </p>
+
+                    <input
+                        type="date"
+                        class="w-full outline-none mt-2"
+                    >
+
+                </div>
+
+                <div class="bg-white rounded-xl p-4 text-left">
+
+                    <p class="text-xs text-gray-500 uppercase">
+                        Group Size
+                    </p>
+
+                    <select class="w-full outline-none mt-2">
+
+                        <option>Private Safari</option>
+                        <option>2 People</option>
+                        <option>4 People</option>
+                        <option>6 People</option>
+
+                    </select>
+
+                </div>
+
+                <button
+                    class="bg-blue-600 hover:bg-blue-700 text-white rounded-xl px-8 py-4 font-medium">
+                    Check Availability
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT SAFARI -->
+<section class="py-24">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-2 gap-20 items-center">
+
+            <div>
+
+                <p class="text-blue-600 mb-3">
+                    The Ghost of the Dry Zone
+                </p>
+
+                <h2 class="text-5xl font-bold">
+                    Leopard Capital of Sri Lanka
+                </h2>
+
+                <p class="text-gray-600 mt-8 leading-8">
+                    Yala National Park Block 1 is renowned for harboring one
+                    of the highest leopard densities in the world.
+                    Our expert naturalists use decades-long tracking
+                    knowledge to place you in the best position for
+                    a sighting that transcends mere tourism.
+                </p>
+
+                <div class="flex items-center gap-4 mt-8">
+
+                    <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                        ✓
+                    </div>
+
+                    <p class="font-semibold">
+                        94% Sightings Success Rate In Peak Season
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img
+                    src="images/leopard-card.jpg"
+                    class="rounded-3xl shadow-xl"
+                    alt=""
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+<section class="pb-24">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <!-- CARD 1 -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-lg">
+
+                <img
+                    src="images/safari-jeep.jpg"
+                    class="w-full h-56 object-cover"
+                    alt=""
+                >
+
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="bg-blue-100 p-8 rounded-3xl">
+
+                <div class="text-blue-700 text-3xl mb-4">
+                    👁
+                </div>
+
+                <h3 class="text-xl font-bold">
+                    Expert Spotters
+                </h3>
+
+                <p class="mt-4 text-gray-700">
+                    Accompanied by veteran rangers with 15+ years
+                    of experience in leopard behavior tracking.
+                </p>
+
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="bg-orange-100 p-8 rounded-3xl">
+
+                <div class="text-orange-600 text-3xl mb-4">
+                    △
+                </div>
+
+                <h3 class="text-xl font-bold">
+                    Diverse Terrain
+                </h3>
+
+                <p class="mt-4 text-gray-700">
+                    Explore semi-arid scrublands, lagoons,
+                    and rocky outcrops unique to southern Sri Lanka.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- CHOOSE YOUR WILDERNESS -->
+<section class="py-24 bg-[#f8f5f4]">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-16">
+
+            <h2 class="text-5xl font-bold">
+                Choose Your Wilderness
+            </h2>
+
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                Whether you seek the spotted king of Yala or the gentle giants of
+                Udawalawe, we provide the ultimate safari experience with expert trackers.
+            </p>
+
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-10">
+
+            <!-- YALA CARD -->
+            <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+
+                <div class="relative">
+
+                    <img src="images/yala-card.jpg"
+                         class="w-full h-[500px] object-cover">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+
+                    <div class="absolute bottom-6 left-6 text-white">
+
+                        <p class="uppercase text-xs tracking-widest">
+                            Leopard Territory
+                        </p>
+
+                        <h3 class="text-3xl font-bold mt-2">
+                            Yala National Park
+                        </h3>
+
+                    </div>
+
+                    <div class="absolute bottom-6 right-6 text-white text-right">
+
+                        <p class="text-xs uppercase">From</p>
+                        <p class="text-3xl font-bold">$85</p>
+
+                    </div>
+
+                </div>
+
+                <div class="p-8">
+
+                    <div class="flex flex-wrap gap-4 text-sm text-gray-500">
+
+                        <span>◉ Full Day / Half Day</span>
+                        <span>◉ Max 6 per Jeep</span>
+
+                    </div>
+
+                    <p class="mt-6 text-gray-600 leading-7">
+                        The world's highest leopard density. A landscape of lagoons,
+                        rocky outcrops, and dense jungle where the wild reigns supreme.
+                    </p>
+
+                    <ul class="mt-6 space-y-3 text-gray-700">
+
+                        <li>✓ Premium 4×4 Luxury Jeep</li>
+                        <li>✓ Professional Wildlife Tracker</li>
+                        <li>✓ Gourmet Bush Breakfast / Lunch</li>
+
+                    </ul>
+
+                    <button class="w-full mt-8 border border-gray-400 py-4 rounded-xl hover:bg-gray-100 transition">
+                        VIEW MORE DETAILS
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- UDAWALAWE CARD -->
+            <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+
+                <div class="relative">
+
+                    <img src="images/udawalawe-card.jpg"
+                         class="w-full h-[500px] object-cover">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+
+                    <div class="absolute bottom-6 left-6 text-white">
+
+                        <p class="uppercase text-xs tracking-widest">
+                            Elephant Territory
+                        </p>
+
+                        <h3 class="text-3xl font-bold mt-2">
+                            Udawalawe Park
+                        </h3>
+
+                    </div>
+
+                    <div class="absolute bottom-6 right-6 text-white text-right">
+
+                        <p class="text-xs uppercase">From</p>
+                        <p class="text-3xl font-bold">$75</p>
+
+                    </div>
+
+                </div>
+
+                <div class="p-8">
+
+                    <div class="flex flex-wrap gap-4 text-sm text-gray-500">
+
+                        <span>◉ 4 Hours Safari</span>
+                        <span>◉ Family Friendly</span>
+
+                    </div>
+
+                    <p class="mt-6 text-gray-600 leading-7">
+                        The best place in Asia to see wild elephants.
+                        Wide open plains and the stunning Udawalawe reservoir
+                        create a savannah-like atmosphere.
+                    </p>
+
+                    <ul class="mt-6 space-y-3 text-gray-700">
+
+                        <li>✓ Open-Roof Safari Vehicle</li>
+                        <li>✓ Entrance Fees Included</li>
+                        <li>✓ Elephant Transit Home Visit</li>
+
+                    </ul>
+
+                    <button class="w-full mt-8 border border-gray-400 py-4 rounded-xl hover:bg-gray-100 transition">
+                        VIEW MORE DETAILS
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- SAFARI TIMELINE -->
+<section class="py-24 bg-[#f8f5f4]">
+
+    <div class="max-w-5xl mx-auto px-6">
+
+        <div class="text-center mb-20">
+
+            <p class="text-sm uppercase tracking-widest text-gray-500">
+                Expedition Timeline
+            </p>
+
+            <h2 class="text-4xl font-bold mt-2">
+                A Day In The Wild
+            </h2>
+
+        </div>
+
+        <div class="relative">
+
+            <!-- CENTER LINE -->
+            <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-blue-200 transform -translate-x-1/2"></div>
+
+            <!-- ITEM 1 -->
+            <div class="grid grid-cols-2 gap-10 mb-16">
+
+                <div class="text-right">
+                    <p class="text-blue-600 font-semibold">05:00 AM</p>
+                    <h4 class="font-bold mt-2">The Dawn Departure</h4>
+                    <p class="text-gray-600 mt-2">
+                        Private pickup from your villa and transfer to safari gate.
+                    </p>
+                </div>
+
+                <div class="relative">
+                    <div class="absolute left-0 top-2 -translate-x-1/2 w-10 h-10 bg-blue-700 rounded-full"></div>
+                </div>
+
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="grid grid-cols-2 gap-10 mb-16">
+
+                <div></div>
+
+                <div>
+                    <p class="text-blue-600 font-semibold">07:30 AM</p>
+                    <h4 class="font-bold mt-2">Morning Watch</h4>
+                    <p class="text-gray-600 mt-2">
+                        Prime tracking hours for leopards, bears and spotted deer.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="grid grid-cols-2 gap-10 mb-16">
+
+                <div class="text-right">
+                    <p class="text-blue-600 font-semibold">09:30 AM</p>
+                    <h4 class="font-bold mt-2">Lagoon Breakfast</h4>
+                    <p class="text-gray-600 mt-2">
+                        Gourmet breakfast served overlooking the reserve lagoon.
+                    </p>
+                </div>
+
+                <div></div>
+
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="grid grid-cols-2 gap-10">
+
+                <div></div>
+
+                <div>
+                    <p class="text-blue-600 font-semibold">11:30 AM</p>
+                    <h4 class="font-bold mt-2">Return Voyage</h4>
+                    <p class="text-gray-600 mt-2">
+                        Final wildlife encounters before returning to base.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- CTA -->
+<section class="bg-blue-700 py-20 text-center text-white">
+
+    <h2 class="text-4xl font-bold">
+        Ready For Your Safari Adventure?
+    </h2>
+
+    <p class="mt-4 text-blue-100">
+        Book your private safari experience today.
+    </p>
+
+    <button class="mt-8 bg-yellow-400 text-black px-8 py-4 rounded-full font-semibold">
+        Reserve Your Spot
+    </button>
+
+</section>
+
+<!-- WILDLIFE ENCOUNTERS -->
+<section class="py-24 bg-[#f8f5f4]">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-16">
+
+            <p class="text-blue-700 text-sm">
+                Unrivaled Wildlife Encounters
+            </p>
+
+            <h2 class="text-5xl font-bold mt-3">
+                Discover Sri Lanka's Wild Side
+            </h2>
+
+            <p class="text-gray-600 max-w-3xl mx-auto mt-4">
+                Witness the Big Three of Sri Lanka — Leopards, Elephants,
+                and Sloth Bears — in their natural habitat.
+            </p>
+
+        </div>
+
+        <!-- GRID -->
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <!-- LEOPARD -->
+            <div class="md:col-span-2 relative overflow-hidden rounded-3xl h-[350px]">
+
+                <img src="images/leopard-close.jpg"
+                     class="w-full h-full object-cover">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                <div class="absolute bottom-8 left-8 text-white">
+
+                    <p class="uppercase tracking-widest text-xs">
+                        Apex Predator
+                    </p>
+
+                    <h3 class="text-3xl font-bold mt-2">
+                        Leopard Tracking Specialists
+                    </h3>
+
+                    <p class="mt-3 max-w-md text-gray-200">
+                        Our expert trackers use years of field knowledge
+                        to maximize your chances of witnessing the elusive
+                        Panthera pardus kotiya.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- ELEPHANT -->
+            <div class="relative overflow-hidden rounded-3xl h-[350px]">
+
+                <img src="images/elephant.jpg"
+                     class="w-full h-full object-cover">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                <div class="absolute bottom-8 left-6 text-white">
+
+                    <h3 class="text-2xl font-bold">
+                        Gentle Giants
+                    </h3>
+
+                    <p class="mt-2 text-sm">
+                        Encounter herds of Sri Lankan elephants
+                        near ancient reservoirs.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SECOND ROW -->
+        <div class="grid md:grid-cols-3 gap-6 mt-6">
+
+            <!-- SLOTH BEAR -->
+            <div class="relative overflow-hidden rounded-3xl h-[320px]">
+
+                <img src="images/sloth-bear.jpg"
+                     class="w-full h-full object-cover">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                <div class="absolute bottom-8 left-6 text-white">
+
+                    <h3 class="text-2xl font-bold">
+                        The Rare Sloth Bear
+                    </h3>
+
+                    <p class="mt-2 text-sm">
+                        A glimpse into one of Asia's most unique
+                        and elusive creatures.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- BEACH -->
+            <div class="md:col-span-2 relative overflow-hidden rounded-3xl h-[320px]">
+
+                <img src="images/yala-coast.jpg"
+                     class="w-full h-full object-cover">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                <div class="absolute bottom-8 left-8 text-white">
+
+                    <h3 class="text-3xl font-bold">
+                        Where Wild Meets The Waves
+                    </h3>
+
+                    <p class="mt-3 max-w-md">
+                        Explore the unique intersection of dry-zone forest
+                        and the Indian Ocean coastline.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-white py-16">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-4 gap-10">
+
+            <div>
+
+                <h3 class="text-xl font-bold text-blue-700">
+                    Tours Mirissa
+                </h3>
+
+                <p class="mt-4 text-gray-600">
+                    Premium wildlife and coastal adventures in Sri Lanka.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h4 class="font-semibold mb-4">
+                    Quick Links
+                </h4>
+
+                <ul class="space-y-2 text-gray-600">
+                    <li>Home</li>
+                    <li>Tours</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h4 class="font-semibold mb-4">
+                    Contact
+                </h4>
+
+                <p class="text-gray-600">
+                    +94 77 123 4567
+                </p>
+
+                <p class="text-gray-600">
+                    info@toursmirissa.com
+                </p>
+
+            </div>
+
+            <div>
+
+                <a
+                   href="https://wa.me/94771234567"
+                   class="inline-block bg-green-500 text-white px-6 py-3 rounded-full">
+                    WhatsApp Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

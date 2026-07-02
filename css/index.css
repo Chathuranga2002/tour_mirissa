@@ -1,0 +1,40 @@
+.hero-zoom{
+
+    animation: zoomEffect 8s ease-in-out infinite;
+
+}
+
+
+@keyframes zoomEffect{
+
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+
+    50%{
+
+        transform:scale(1.12);
+
+    }
+
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+
+/* smooth image change */
+
+#heroImage{
+
+    transition: opacity 0.6s ease-in-out;
+
+}

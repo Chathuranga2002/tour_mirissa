@@ -1,0 +1,109 @@
+{
+  "topics":[
+
+{
+"id":"whale",
+"title":"Whale Watching in Mirissa",
+"image":"images/seo/whale.jpg",
+"description":"Mirissa is one of the world's best destinations for Blue Whale watching. Visitors can also spot Sperm Whales, Bryde's Whales, Spinner Dolphins and many other marine species throughout the season.",
+"highlights":[
+"Blue Whale Sightings",
+"Dolphin Watching",
+"Professional Guides",
+"Luxury Boat Experience"
+]
+},
+
+{
+"id":"season",
+"title":"Best Time to Visit",
+"image":"images/seo/season.jpg",
+"description":"The best whale watching season in Mirissa runs from November to April, offering calm seas and excellent opportunities to observe marine wildlife.",
+"highlights":[
+"Calm Ocean",
+"Peak Season",
+"Great Photography",
+"Comfortable Weather"
+]
+},
+
+{
+"id":"boat",
+"title":"Boat Experience",
+"image":"images/seo/boat.jpg",
+"description":"Our boats include comfortable seating, breakfast, life jackets, insurance, toilet facilities and experienced crew members.",
+"highlights":[
+"Breakfast Included",
+"Insurance",
+"Life Jackets",
+"Hotel Pickup"
+]
+},
+
+{
+"id":"wildlife",
+"title":"Marine Wildlife",
+"image":"images/seo/dolphin.jpg",
+"description":"Along with Blue Whales, visitors often encounter Spinner Dolphins, Flying Fish, Sea Turtles and occasionally Killer Whales.",
+"highlights":[
+"Blue Whales",
+"Spinner Dolphins",
+"Sea Turtles",
+"Flying Fish"
+]
+},
+
+{
+"id":"travel",
+"title":"Getting to Mirissa",
+"image":"images/seo/travel.jpg",
+"description":"Mirissa is approximately 150 km south of Colombo and is easily accessible via the Southern Expressway or scenic coastal railway.",
+"highlights":[
+"Airport Transfers",
+"Private Taxi",
+"Train",
+"Bus"
+]
+},
+
+{
+"id":"camera",
+"title":"Photography Tips",
+"image":"images/seo/photo.jpg",
+"description":"Bring a zoom lens, sunglasses and keep your camera ready as whale sightings often happen unexpectedly.",
+"highlights":[
+"Best Lighting",
+"Zoom Lens",
+"Action Shots",
+"Ocean Landscapes"
+]
+},
+
+{
+"id":"packing",
+"title":"What to Bring",
+"image":"images/seo/packing.jpg",
+"description":"Wear lightweight clothing and bring sunscreen, sunglasses, a hat, camera and motion sickness tablets if required.",
+"highlights":[
+"Sunscreen",
+"Hat",
+"Camera",
+"Water"
+]
+},
+
+{
+"id":"faq",
+"title":"Frequently Asked Questions",
+"image":"images/seo/faq.jpg",
+"description":"Find answers regarding bookings, cancellations, children, weather conditions and tour schedules.",
+"highlights":[
+"Booking",
+"Weather",
+"Children",
+"Cancellation"
+]
+}
+
+]
+}

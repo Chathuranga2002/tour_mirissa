@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Udawalawe Safari | Tours Mirissa</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/udawalawe-safari.css">
+
+<style>
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+</style>
+<link rel="stylesheet" href="css/whale-watching.css">
+</head>
+
+<body class="bg-[#f8f5f4]">
+
+<!-- NAVBAR -->
+
+<nav id="navbar"
+class="fixed top-0 left-0 w-full z-50
+bg-transparent
+transition-all duration-500">
+
+
+<div class="max-w-7xl mx-auto px-6 py-5 
+flex justify-between items-center">
+
+
+<!-- LOGO -->
+
+<a href="index.html"
+class="text-2xl font-bold text-white">
+
+Tours Mirissa
+
+</a>
+
+
+
+
+<!-- DESKTOP MENU -->
+
+<div class="hidden lg:flex items-center gap-8 text-white">
+
+
+<a href="index.html"
+class="hover:text-yellow-400">
+Home
+</a>
+
+
+<a href="whale-watching.html"
+class="hover:text-yellow-400">
+Whale Watching
+</a>
+
+
+
+
+
+<!-- SAFARI -->
+
+<div class="relative group">
+
+
+<button class="flex gap-2 hover:text-yellow-400">
+
+Safari Tours
+⌄
+
+</button>
+
+
+
+<div class="absolute top-full pt-3 hidden group-hover:block">
+
+
+<div class="bg-white text-gray-800 rounded-xl shadow-xl w-52">
+
+
+<a href="yala-safari.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Yala Safari
+
+</a>
+
+
+<a href="udawalawe-safari.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Udawalawe Safari
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- SERVICE -->
+
+
+<div class="relative group">
+
+
+<button class="flex gap-2 hover:text-yellow-400">
+
+Service & Activities
+⌄
+
+</button>
+
+
+
+<div class="absolute top-full pt-3 hidden group-hover:block">
+
+
+<div class="bg-white text-gray-800 rounded-xl shadow-xl w-60">
+
+
+<a href="surf-lessons.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Surf Lessons
+
+</a>
+
+
+<a href="hotel-booking.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Hotel Booking
+
+</a>
+
+
+<a href="airport-transfer.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Airport Pick UP & Transfer
+
+</a>
+
+
+<a href="diving.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+Diving
+
+</a>
+
+<a href="bike-rental.html"
+class="block px-5 py-3 hover:bg-gray-100">
+
+bike rental
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<a href="sri-lanka.html"
+class="hover:text-yellow-400">
+
+Sri Lanka
+
+</a>
+
+
+<a href="contact.html"
+class="hover:text-yellow-400">
+
+Contact
+
+</a>
+
+
+
+</div>
+
+
+
+
+
+
+<!-- BOOK BUTTON -->
+
+<a href="contact.html"
+
+class="
+hidden lg:block
+bg-yellow-400
+text-black
+px-6 py-2
+rounded-full">
+
+Book Now
+
+</a>
+
+
+
+
+
+
+<!-- MOBILE BUTTON -->
+
+
+<button id="menuBtn"
+
+class="lg:hidden text-white text-3xl">
+
+
+☰
+
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+<!-- MOBILE MENU -->
+
+
+<div id="mobileMenu"
+
+class="
+hidden
+lg:hidden
+bg-black/90
+backdrop-blur-xl
+absolute
+top-full
+left-0
+w-full
+px-6
+py-6
+text-white">
+
+
+<a href="index.html"
+class="block py-3">
+
+Home
+
+</a>
+
+
+
+<a href="whale-watching.html"
+class="block py-3">
+
+Whale Watching
+
+</a>
+
+
+
+
+
+<!-- MOBILE SAFARI -->
+
+<button
+onclick="toggleSafari()"
+
+class="w-full flex justify-between py-3">
+
+
+Safari Tours
+
+<span>
+⌄
+</span>
+
+
+</button>
+
+
+
+<div id="safariDrop"
+class="hidden pl-5">
+
+
+<a href="yala-safari.html"
+class="block py-2 text-gray-300">
+
+Yala Safari
+
+</a>
+
+
+<a href="udawalawe-safari.html"
+class="block py-2 text-gray-300">
+
+Udawalawe Safari
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+<!-- MOBILE SERVICE -->
+
+
+<button
+onclick="toggleService()"
+
+class="w-full flex justify-between py-3">
+
+
+Service & Activities
+
+<span>
+⌄
+</span>
+
+
+</button>
+
+
+
+<div id="serviceDrop"
+class="hidden pl-5">
+
+
+<a href="surf-lessons.html"
+class="block py-2 text-gray-300">
+
+Surf Lessons
+
+</a>
+
+
+<a href="hotel-booking.html"
+class="block py-2 text-gray-300">
+
+Hotel Booking
+
+</a>
+
+
+<a href="airport-transfer.html"
+class="block py-2 text-gray-300">
+
+Airport Pick UP & Transfer
+
+</a>
+
+
+<a href="diving.html"
+class="block py-2 text-gray-300">
+
+Diving
+
+</a>
+
+
+<a href="bike-rental.html"
+class="block py-2 text-gray-300">
+
+Bike Rental
+
+</a>
+
+
+</div>
+
+
+
+
+<a href="contact.html"
+
+class="
+block
+mt-5
+bg-yellow-400
+text-black
+text-center
+py-3
+rounded-full">
+
+Book Now
+
+</a>
+
+
+
+</div>
+
+
+</nav>
+
+
+
+<!-- ==========================================
+                HERO SECTION
+========================================== -->
+
+<section class="relative h-[70vh] min-h-[650px] overflow-hidden">
+
+    <!-- Background -->
+
+    <img
+        src="images/udawalawe/hero.png"
+        alt="Udawalawe Safari"
+        class="absolute inset-0 w-full h-full object-cover hero-zoom">
+
+    <!-- Overlay -->
+
+    <div class="absolute inset-0 bg-black/55"></div>
+
+    <!-- Gradient -->
+
+    <div class="absolute inset-0 bg-gradient-to-r
+                from-black/80
+                via-black/45
+                to-transparent">
+    </div>
+
+    <!-- Content -->
+
+    <div class="relative z-10
+                h-full
+                max-w-7xl
+                mx-auto
+                px-6
+                lg:px-8
+                flex items-center
+                pt-36">
+
+        <div class="max-w-3xl text-white">
+
+            <span class="inline-block
+                         px-5
+                         py-2
+                         rounded-full
+                         bg-yellow-500/20
+                         border
+                         border-yellow-300/40
+                         backdrop-blur-md
+                         uppercase
+                         tracking-[4px]
+                         text-sm
+                         text-yellow-200">
+
+                Tours Mirissa
+
+            </span>
+
+            <h1 class="mt-6
+                       text-5xl
+                       md:text-6xl
+                       lg:text-7xl
+                       font-bold
+                       leading-tight">
+
+                Udawalawe
+                <br>
+
+                National Park Safari
+
+            </h1>
+
+            <p class="mt-6
+                      text-lg
+                      text-gray-200
+                      leading-8">
+
+                Experience one of Sri Lanka's best wildlife parks,
+                famous for its large herds of wild elephants,
+                water buffalo, crocodiles, deer and over 200 species
+                of birds. Travel comfortably with
+                <strong>Tours Mirissa</strong> and enjoy an unforgettable
+                safari adventure.
+
+            </p>
+
+            <div class="flex flex-wrap gap-4 mt-10">
+
+                <a href="#packages"
+                   class="bg-yellow-400
+                          hover:bg-yellow-300
+                          transition
+                          text-black
+                          font-semibold
+                          px-8
+                          py-4
+                          rounded-full">
+
+                    Reserve Safari
+
+                </a>
+
+                <a href="#gallery"
+                   class="border
+                          border-white/40
+                          px-8
+                          py-4
+                          rounded-full
+                          hover:bg-white
+                          hover:text-black
+                          transition">
+
+                    Explore Wildlife
+
+                </a>
+
+            </div>
+
+            <!-- Quick Info -->
+<!-- 
+            <div class="flex flex-wrap gap-6 mt-10">
+
+                <div class="bg-white/10 backdrop-blur-lg rounded-2xl px-6 py-4">
+
+                    <p class="text-sm text-gray-300">
+
+                        Duration
+
+                    </p>
+
+                    <h4 class="font-semibold">
+
+                        Full Day / Half Day
+
+                    </h4>
+
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-lg rounded-2xl px-6 py-4">
+
+                    <p class="text-sm text-gray-300">
+
+                        Pickup
+
+                    </p>
+
+                    <h4 class="font-semibold">
+
+                        Free from Mirissa
+
+                    </h4>
+
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-lg rounded-2xl px-6 py-4">
+
+                    <p class="text-sm text-gray-300">
+
+                        Wildlife
+
+                    </p>
+
+                    <h4 class="font-semibold">
+
+                        500+ Elephants
+
+                    </h4>
+
+                </div>
+
+            </div> -->
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+        ABOUT UDAWALAWE
+========================================== -->
+
+<section id="about">
+
+</section>
+
+<!-- WHY CHOOSE UDAWALAWE -->
+
+<section>
+
+</section>
+
+<!-- SAFARI PACKAGES -->
+
+<section id="packages">
+
+</section>
+
+<!-- TOUR TIMELINE -->
+
+<section>
+
+</section>
+
+<!-- WHAT'S INCLUDED -->
+
+<section>
+
+</section>
+
+<!-- WILDLIFE GALLERY -->
+
+<section id="gallery">
+
+</section>
+
+<!-- PRICING -->
+
+<section>
+
+</section>
+
+<!-- SEO GUIDE -->
+
+<section>
+
+</section>
+
+<!-- FAQ -->
+
+<section>
+
+</section>
+
+<!-- FOOTER -->
+
+<!-- Copy the same footer from your homepage -->
+
+<script src="js/nav-bar.js"></script>
+<script src="js/udawalawe-safari.js"></script>
+
+</body>
+
+</html>

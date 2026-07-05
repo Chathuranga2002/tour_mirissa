@@ -1,0 +1,41 @@
+/* Desktop */
+.tm-hero{
+    height:70vh;
+    min-height:650px;
+}
+
+/* Large Tablets */
+@media (max-width:1024px){
+
+    .tm-hero{
+
+        height:90vh;
+        min-height:650px;
+
+    }
+
+}
+
+/* iPad (768px) */
+@media (max-width:768px){
+
+    .tm-hero{
+
+        height:100vh;
+        min-height:100vh;
+
+    }
+
+}
+
+/* Mobile */
+@media (max-width:640px){
+
+    .tm-hero{
+
+        height:100vh;
+        min-height:100vh;
+
+    }
+
+}

@@ -1,0 +1,234 @@
+/* ==========================================
+   TOURS MIRISSA NAVBAR
+========================================== */
+
+/* Navbar */
+
+#navbar{
+
+    transition:all .4s ease;
+
+}
+
+/* Navbar after scroll */
+
+#navbar.scrolled{
+
+    background:rgba(0,0,0,.82);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    box-shadow:0 8px 30px rgba(0,0,0,.18);
+
+}
+
+/* ==========================================
+   NAV LINKS
+========================================== */
+
+#navbar a,
+#navbar button{
+
+    transition:.3s;
+
+}
+
+#navbar a:hover,
+#navbar button:hover{
+
+    color:#facc15;
+
+}
+
+/* ==========================================
+   DROPDOWN
+========================================== */
+
+.group>.absolute{
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(15px);
+
+    transition:all .35s ease;
+
+    pointer-events:none;
+
+}
+
+.group:hover>.absolute{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+    pointer-events:auto;
+
+}
+
+/* ==========================================
+   DROPDOWN LINKS
+========================================== */
+
+.group .absolute a{
+
+    transition:.25s;
+
+}
+
+.group .absolute a:hover{
+
+    background:#f5f5f5;
+
+    padding-left:26px;
+
+}
+
+/* ==========================================
+   MOBILE MENU
+========================================== */
+
+#mobileMenu{
+
+    animation:mobileMenu .35s ease;
+
+}
+
+@keyframes mobileMenu{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(-15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================================
+   MOBILE DROPDOWNS
+========================================== */
+
+#safariDrop,
+#serviceDrop{
+
+    transition:all .35s ease;
+
+}
+
+#safariDrop a,
+#serviceDrop a{
+
+    transition:.25s;
+
+}
+
+#safariDrop a:hover,
+#serviceDrop a:hover{
+
+    color:#facc15;
+
+    padding-left:10px;
+
+}
+
+/* ==========================================
+   BOOK BUTTON
+========================================== */
+
+.book-btn{
+
+    transition:.35s;
+
+}
+
+.book-btn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 30px rgba(250,204,21,.4);
+
+}
+
+/* ==========================================
+   MENU BUTTON
+========================================== */
+
+#menuBtn{
+
+    transition:.3s;
+
+}
+
+#menuBtn:hover{
+
+    transform:rotate(90deg);
+
+}
+
+/* ==========================================
+   ACTIVE LINK
+========================================== */
+
+.nav-active{
+
+    color:#facc15;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width:1024px){
+
+    #navbar{
+
+        padding:0;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    #mobileMenu{
+
+        max-height:80vh;
+
+        overflow-y:auto;
+
+    }
+
+}
+
+@media (max-width:480px){
+
+    #navbar .text-2xl{
+
+        font-size:1.4rem;
+
+    }
+
+    #menuBtn{
+
+        font-size:2rem;
+
+    }
+
+}

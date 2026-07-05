@@ -1,0 +1,262 @@
+{
+  "whale": {
+    "badge": "Whale Watching",
+    "title": "Whale Watching Gallery",
+    "subtitle": "Discover unforgettable encounters with Blue Whales and Dolphins in the Indian Ocean.",
+    "cover": "images/gallery/whale/cover.jpg",
+    "heroTitle": "Whale Watching Mirissa",
+    "heroDescription": "Experience one of the world's best whale watching destinations with Tours Mirissa.",
+
+    "images": [
+      {
+        "title": "Blue Whale",
+        "description": "Witness the largest animal on Earth in its natural habitat.",
+        "image": "images/gallery/whale/1.jpg"
+      },
+      {
+        "title": "Spinner Dolphins",
+        "description": "Playful dolphins often accompany our boats.",
+        "image": "images/gallery/whale/2.jpg"
+      },
+      {
+        "title": "Luxury Boat",
+        "description": "Travel safely and comfortably with our experienced crew.",
+        "image": "images/gallery/whale/3.jpg"
+      },
+      {
+        "title": "Morning Ocean",
+        "description": "Beautiful sunrise before beginning the tour.",
+        "image": "images/gallery/whale/4.jpg"
+      },
+      {
+        "title": "Blue Ocean",
+        "description": "Crystal-clear waters of Mirissa.",
+        "image": "images/gallery/whale/5.jpg"
+      },
+      {
+        "title": "Whale Tail",
+        "description": "A memorable close encounter.",
+        "image": "images/gallery/whale/6.jpg"
+      },
+      {
+        "title": "Ocean Adventure",
+        "description": "Enjoy every moment at sea.",
+        "image": "images/gallery/whale/7.jpg"
+      },
+      {
+        "title": "Professional Crew",
+        "description": "Friendly local guides with years of experience.",
+        "image": "images/gallery/whale/8.jpg"
+      }
+    ]
+  },
+
+  "yala": {
+    "badge": "Yala Safari",
+    "title": "Yala National Park",
+    "subtitle": "Explore Sri Lanka's most famous wildlife destination.",
+    "cover": "images/gallery/yala/cover.jpg",
+    "heroTitle": "Yala Safari Adventure",
+    "heroDescription": "Discover leopards, elephants, bears and hundreds of bird species.",
+
+    "images": [
+      {
+        "title": "Sri Lankan Leopard",
+        "description": "Yala has one of the world's highest leopard densities.",
+        "image": "images/gallery/yala/1.jpg"
+      },
+      {
+        "title": "Wild Elephant",
+        "description": "Observe elephants in their natural environment.",
+        "image": "images/gallery/yala/2.jpg"
+      },
+      {
+        "title": "Safari Jeep",
+        "description": "Comfortable 4x4 safari vehicles.",
+        "image": "images/gallery/yala/3.jpg"
+      },
+      {
+        "title": "Peacock",
+        "description": "Colorful birds found throughout the park.",
+        "image": "images/gallery/yala/4.jpg"
+      },
+      {
+        "title": "Sloth Bear",
+        "description": "One of Yala's rare wildlife sightings.",
+        "image": "images/gallery/yala/5.jpg"
+      },
+      {
+        "title": "Beautiful Landscape",
+        "description": "Scenic wilderness of Yala.",
+        "image": "images/gallery/yala/6.jpg"
+      }
+    ]
+  },
+
+  "udawalawe": {
+    "badge": "Udawalawe Safari",
+    "title": "Udawalawe National Park",
+    "subtitle": "The best place in Sri Lanka to see elephants.",
+    "cover": "images/gallery/udawalawe/cover.jpg",
+    "heroTitle": "Udawalawe Safari",
+    "heroDescription": "Experience amazing wildlife with our expert safari guides.",
+
+    "images": [
+      {
+        "title": "Elephant Family",
+        "description": "See elephant herds roaming freely.",
+        "image": "images/gallery/udawalawe/1.jpg"
+      },
+      {
+        "title": "Safari Jeep",
+        "description": "Morning safari experience.",
+        "image": "images/gallery/udawalawe/2.jpg"
+      },
+      {
+        "title": "Bird Watching",
+        "description": "More than 180 bird species.",
+        "image": "images/gallery/udawalawe/3.jpg"
+      },
+      {
+        "title": "Nature",
+        "description": "Beautiful landscapes of Udawalawe.",
+        "image": "images/gallery/udawalawe/4.jpg"
+      }
+    ]
+  },
+
+  "surf": {
+    "badge": "Surf Lessons",
+    "title": "Surf Lessons Gallery",
+    "subtitle": "Learn to ride the waves with professional instructors.",
+    "cover": "images/gallery/surf/cover.jpg",
+    "heroTitle": "Surf in Mirissa",
+    "heroDescription": "Perfect waves for beginners and experienced surfers.",
+
+    "images": [
+      {
+        "title": "Beginner Lesson",
+        "description": "Professional surf coaching.",
+        "image": "images/gallery/surf/1.jpg"
+      },
+      {
+        "title": "Sunset Surf",
+        "description": "Enjoy evening surfing sessions.",
+        "image": "images/gallery/surf/2.jpg"
+      },
+      {
+        "title": "Perfect Waves",
+        "description": "Warm tropical waters year-round.",
+        "image": "images/gallery/surf/3.jpg"
+      }
+    ]
+  },
+
+  "diving": {
+    "badge": "Scuba Diving",
+    "title": "Scuba Diving Gallery",
+    "subtitle": "Discover the underwater world of Mirissa.",
+    "cover": "images/gallery/diving/cover.jpg",
+    "heroTitle": "Explore Underwater",
+    "heroDescription": "Swim with turtles, coral reefs and colorful fish.",
+
+    "images": [
+      {
+        "title": "Coral Reef",
+        "description": "Beautiful underwater ecosystem.",
+        "image": "images/gallery/diving/1.jpg"
+      },
+      {
+        "title": "Sea Turtle",
+        "description": "Meet amazing marine life.",
+        "image": "images/gallery/diving/2.jpg"
+      },
+      {
+        "title": "Scuba Adventure",
+        "description": "Safe diving with certified instructors.",
+        "image": "images/gallery/diving/3.jpg"
+      }
+    ]
+  },
+
+  "hotel": {
+    "badge": "Hotel Booking",
+    "title": "Accommodation Gallery",
+    "subtitle": "Luxury resorts, boutique hotels and beach villas.",
+    "cover": "images/gallery/hotel/cover.jpg",
+    "heroTitle": "Stay with Comfort",
+    "heroDescription": "Handpicked accommodations across Sri Lanka.",
+
+    "images": [
+      {
+        "title": "Luxury Resort",
+        "description": "Oceanfront luxury accommodation.",
+        "image": "images/gallery/hotel/1.jpg"
+      },
+      {
+        "title": "Beach Villa",
+        "description": "Private villa with stunning views.",
+        "image": "images/gallery/hotel/2.jpg"
+      },
+      {
+        "title": "Infinity Pool",
+        "description": "Relax with breathtaking scenery.",
+        "image": "images/gallery/hotel/3.jpg"
+      }
+    ]
+  },
+
+  "airport": {
+    "badge": "Airport Transfer",
+    "title": "Transfer Service Gallery",
+    "subtitle": "Reliable transportation across Sri Lanka.",
+    "cover": "images/gallery/airport/cover.jpg",
+    "heroTitle": "Travel Comfortably",
+    "heroDescription": "Private airport pickups and island-wide transfers.",
+
+    "images": [
+      {
+        "title": "Airport Pickup",
+        "description": "Meet and greet service.",
+        "image": "images/gallery/airport/1.jpg"
+      },
+      {
+        "title": "Luxury Van",
+        "description": "Comfortable air-conditioned vehicles.",
+        "image": "images/gallery/airport/2.jpg"
+      },
+      {
+        "title": "Professional Driver",
+        "description": "Friendly local chauffeurs.",
+        "image": "images/gallery/airport/3.jpg"
+      }
+    ]
+  },
+
+  "bike": {
+    "badge": "Bike Rental",
+    "title": "Bike Rental Gallery",
+    "subtitle": "Explore Sri Lanka on two wheels.",
+    "cover": "images/gallery/bike/cover.jpg",
+    "heroTitle": "Ride Freely",
+    "heroDescription": "Scooters and motorcycles available for every adventure.",
+
+    "images": [
+      {
+        "title": "Scooter",
+        "description": "Easy and economical transportation.",
+        "image": "images/gallery/bike/1.jpg"
+      },
+      {
+        "title": "Coastal Ride",
+        "description": "Ride along Sri Lanka's beautiful coastline.",
+        "image": "images/gallery/bike/2.jpg"
+      },
+      {
+        "title": "Motorbike",
+        "description": "Powerful bikes for long journeys.",
+        "image": "images/gallery/bike/3.jpg"
+      }
+    ]
+  }
+}

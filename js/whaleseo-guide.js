@@ -1,75 +1,105 @@
-const buttons=document.getElementById("topicButtons");
-const image=document.getElementById("topicImage");
-const title=document.getElementById("topicTitle");
-const description=document.getElementById("topicDescription");
-const highlights=document.getElementById("topicHighlights");
+const buttons = document.getElementById("topicButtons");
+const title = document.getElementById("topicTitle");
+const description = document.getElementById("topicDescription");
+const highlights = document.getElementById("topicHighlights");
 
 fetch("data/seo-topics.json")
-.then(res=>res.json())
-.then(data=>{
+    .then(res => res.json())
+    .then(data => {
 
-let topics=data.topics;
+        const topics = data.topics;
+        let activeButton = null;
 
-function loadTopic(topic){
+        function loadTopic(topic, button) {
 
-image.src=topic.image;
+            title.style.opacity = 0;
+            description.style.opacity = 0;
+            highlights.style.opacity = 0;
 
-title.textContent=topic.title;
+            setTimeout(() => {
 
-description.textContent=topic.description;
+                title.textContent = topic.title;
+                description.innerHTML = topic.description.replace(/\n/g, "<br>");
 
-highlights.innerHTML="";
+                highlights.innerHTML = "";
 
-topic.highlights.forEach(item=>{
+                topic.highlights.forEach(item => {
 
-highlights.innerHTML+=`
+                    highlights.innerHTML += `
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                ✓
+                            </div>
 
-<div class="bg-blue-50 rounded-xl p-4 flex items-center gap-3">
+                            <span>
+                                ${item}
+                            </span>
+                        </div>
+                    `;
 
-<div class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center">
+                });
 
-✓
+                title.style.opacity = 1;
+                description.style.opacity = 1;
+                highlights.style.opacity = 1;
 
-</div>
+            }, 250);
 
-<span>${item}</span>
+            if (activeButton) {
+                activeButton.classList.remove("topic-active");
+            }
 
-</div>
+            button.classList.add("topic-active");
+            activeButton = button;
+        }
 
-`;
+        topics.forEach((topic, index) => {
 
-});
+            const button = document.createElement("button");
 
+            button.className = "topic-btn";
+
+            button.innerHTML = `
+                <div>
+                    <h4>${topic.title}</h4>
+                    <p>${topic.short || "Learn more about this topic"}</p>
+                </div>
+
+                <span>
+                    →
+                </span>
+            `;
+
+            button.addEventListener("click", () => {
+                loadTopic(topic, button);
+            });
+
+            buttons.appendChild(button);
+
+            if (index === 0) {
+                loadTopic(topic, button);
+            }
+
+        });
+
+    })
+    .catch(error => {
+        console.error("SEO topics loading error:", error);
+    });
+
+
+const speciesSection = document.querySelector(".species-section");
+
+if (speciesSection) {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                speciesSection.classList.add("show");
+            }
+        });
+    }, {
+        threshold: 0.25
+    });
+
+    observer.observe(speciesSection);
 }
-
-topics.forEach((topic,index)=>{
-
-let button=document.createElement("button");
-
-button.innerHTML=`
-
-<div class="flex justify-between items-center">
-
-<span>${topic.title}</span>
-
-<span>→</span>
-
-</div>
-
-`;
-
-button.className="text-left border rounded-2xl p-5 hover:bg-blue-600 hover:text-white duration-300";
-
-button.onclick=()=>loadTopic(topic);
-
-buttons.appendChild(button);
-
-if(index===0){
-
-loadTopic(topic);
-
-}
-
-});
-
-});

@@ -1,4 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
+// ===========================================
+// NAVBAR INITIALIZATION
+// ===========================================
+
+function initNavbar() {
 
     // ==========================
     // ELEMENTS
@@ -11,30 +15,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const safariDrop = document.getElementById("safariDrop");
     const serviceDrop = document.getElementById("serviceDrop");
 
+    if (!navbar) return;
+
     // ==========================
     // NAVBAR SCROLL EFFECT
     // ==========================
 
     function updateNavbar() {
 
-        if (window.scrollY > 50) {
+    if (window.scrollY > 50) {
 
-            navbar.classList.add(
-                "bg-black/80",
-                "backdrop-blur-xl",
-                "shadow-lg"
-            );
+        navbar.classList.add("scrolled");
+        navbar.classList.remove("bg-transparent");
 
-        } else {
+    } else {
 
-            navbar.classList.remove(
-                "bg-black/80",
-                "backdrop-blur-xl",
-                "shadow-lg"
-            );
+        navbar.classList.remove("scrolled");
+        navbar.classList.add("bg-transparent");
 
-        }
-
+    }
+    
     }
 
     updateNavbar();
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // ==========================
-    // CLOSE MENU ON DESKTOP
+    // RESET MENU ON DESKTOP
     // ==========================
 
     window.addEventListener("resize", function () {
@@ -127,4 +127,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-});
+}
